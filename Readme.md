@@ -9,7 +9,8 @@ The device spec for installation:
 | Storage | 300Gi           |
 | OS      | CentOS 7.9.2009 |
 
-For practice purpose, we create a Classic VM in IBM cloud.( The resources are generated via terraform which can be consumed on its as as well. )
+For practice purpose, we create a Classic VM in IBM cloud.
+(The resources are generated via terraform which can be consumed on its as as well.)
 
    ```tf
 resource "ibm_compute_vm_instance" "vm1" {
